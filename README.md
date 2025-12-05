@@ -1,6 +1,6 @@
 # 🛣️ Road Lane Detection using OpenCV
 
-This computer vision project detects road lane lines from a dashcam driving video using traditional image processing techniques in OpenCV. It simulates a basic lane-following system, which is an essential component of autonomous driving.
+This project uses computer vision methods in OpenCV to identify road lane markings from dashcam footage. It demonstrates the core idea behind a simple lane-following mechanism, a fundamental building block in autonomous driving systems.
 
 # Developed by: Piyush Bhatia, VIT Bhopal University
 
@@ -27,15 +27,14 @@ This computer vision project detects road lane lines from a dashcam driving vide
 
 ---
 
-## ⚙️ How It Works
-
-1. Convert video frame to **grayscale**
-2. Apply **Gaussian blur** to reduce noise
-3. Use **Canny edge detection**
-4. Define **region of interest (ROI)** to mask unwanted parts
-5. Apply **Hough Line Transform** to detect straight lines
-6. **Average and extrapolate** the left/right lane lines
-7. Overlay detected lanes onto the original frame
+## How the System Works
+1. The input video frame is first converted into grayscale to simplify processing.
+2. A Gaussian blur is applied to smooth the image and reduce noise.
+3. Canny edge detection is used to highlight the prominent edges in the frame.
+4. A region of interest (ROI) is defined so that only the relevant road area is processed.
+5. The Hough Line Transform is then used to identify straight line segments.
+6. Detected lines are grouped, averaged, and extended to form complete left and right lane boundaries.
+7. Finally, the calculated lanes are drawn back onto the original frame to visualize the detection.
 
 ---
 
@@ -80,12 +79,11 @@ python lane_detection.py
 
 ---
 
-## 🔭 Future Enhancements
-
-- Support **curved lanes** using polynomial fitting
-- Integrate **real-time webcam lane detection**
-- Use **color masks** to detect yellow lanes better
-- Deploy in **embedded systems or mobile devices**
+## Future Improvements
+Add support for detecting curved lanes using polynomial curve fitting
+Enable real-time lane detection through live webcam input
+Apply advanced color filtering to better identify yellow road markings
+Optimize the system for deployment on embedded boards or mobile platforms
 
 ---
 
