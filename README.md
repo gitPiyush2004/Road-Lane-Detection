@@ -89,11 +89,5 @@ python lane_detection.py
 
 ---
 
-## 👨‍💻 Author
-
-Piyush Bhatia
-VIT Bhopal University
-
----
 
 
