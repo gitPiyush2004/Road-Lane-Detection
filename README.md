@@ -79,11 +79,7 @@ python lane_detection.py
 
 ---
 
-## Future Improvements
-Add support for detecting curved lanes using polynomial curve fitting
-Enable real-time lane detection through live webcam input
-Apply advanced color filtering to better identify yellow road markings
-Optimize the system for deployment on embedded boards or mobile platforms
+
 
 ---
 
