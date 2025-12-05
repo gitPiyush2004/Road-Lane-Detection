@@ -2,6 +2,8 @@
 
 This computer vision project detects road lane lines from a dashcam driving video using traditional image processing techniques in OpenCV. It simulates a basic lane-following system, which is an essential component of autonomous driving.
 
+# Developed by: Piyush Bhatia, VIT Bhopal University
+
 ---
 
 ## 🎥 Input vs Output Video
@@ -89,10 +91,9 @@ python lane_detection.py
 
 ## 👨‍💻 Author
 
-**Muhammad Rayan Shahid**  
-AI & ML Enthusiast | [LinkedIn](https://www.linkedin.com/in/muhammadrayanshahid/) | [GitHub](https://github.com/RayanAIX)
+Piyush Bhatia
+VIT Bhopal University
 
 ---
 
-⭐ If you found this project useful, please consider starring the repository!
 
